@@ -1,0 +1,204 @@
+/*For older browsers*/
+header, section, footer, main, nav, aside {
+	display: block;
+}
+
+body {
+	font: 125%/1.5 verdana, arial, sans-serif;
+	color: #a5aa8a;
+	background: url(images/nuclearThrone/background-tile.jpg) repeat;
+}
+
+#wrap {
+	max-width: 960px;
+	width: 85%;
+	background: linear-gradient(rgba(93,100, 25, 0.7), rgba(39,100,13, 0.7));
+	margin: auto;
+	border: 5px solid #a5aa8a;
+	border-radius: 25px;
+	overflow: auto;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Press Start 2P', Verdana, sans-serif;
+	font-size: 200%;
+	color: #63ff20;
+	background: #3d4803;
+	border-top: 3px solid #a5aa8a;
+	border-bottom: 3px solid #a5aa8a;
+	text-shadow: 2px 3px 3px #000;
+}
+
+h3 {
+	border-bottom: 3px solid #a5aa8a;
+	margin-left: 10%;
+	padding-left: 5px;
+	font-family: 'Press Start 2P', Verdana, sans-serif;
+	font-size: 125%;
+	color: #63ff20;
+	text-shadow: 2px 3px 3px #000;
+}
+
+header img {
+	max-width: 100%;
+}
+
+nav {
+	background: #3d4803;
+	margin: auto;
+	border-top: 3px solid #a5aa8a;
+	border-bottom: 3px solid #a5aa8a;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+	color: #a5aa8a;
+	width: 100%;
+	padding: 0 5px;
+}
+
+nav a {
+	padding: 0;
+	text-align: center;
+	font-size: 100%;
+	font-family: 'Press Start 2P', Verdana, Arial, sans-serif;
+	text-decoration: none;
+	color: #a5aa8a;
+	transition: all 1s;
+}
+
+nav a:hover {
+	font-size: 120%;
+	text-decoration: none;
+	text-shadow: 2px 3px 3px #000;
+	color: #63ff20;
+}
+
+main a {
+	margin-left: 80%;
+	padding: 0;
+	text-decoration: none;
+	color: #a5aa8a;
+}
+
+main p {
+	text-align: justify;
+	padding: 15px;
+	margin-right: 25%;
+	margin-left: 15%;
+}
+
+main ul {
+	margin-right: 30%;
+	margin-left: 15%;
+}
+
+main img {
+	margin-left: 15px;
+	padding-left: 3px;
+	float: right;
+	opacity: 1;
+	border: 3px solid #a5aa8a;
+}
+
+ main span:hover {
+	background: #000;
+	color: #63ff20;
+}
+
+footer img {
+	height: auto;
+	width: 100%;
+	margin-bottom: 0;
+	margin-top: 25px;
+}
+
+aside {
+	float: right;
+	overflow: auto;
+	margin-right: 15px;
+}
+
+aside ul {
+	list-style-type: none;
+}
+
+aside li {
+	display: inline;
+	clear: both;
+	overflow: auto;
+}
+
+aside a {
+	color: #a5aa8a;
+	text-decoration: none;	
+	text-align: center;
+}
+
+aside img {
+	border: 1px solid #a5aa8a;
+	box-shadow: 2px 2px 3px #ddd;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+
+@media screen and (max-width: 520px) {
+	body {
+		background: #182011;
+		background-image: none;
+	}
+
+	#wrap {
+		width: 95%;
+	}
+
+	nav {
+		border: none;
+		background: none;
+	}
+
+	nav ul {
+		text-align: center;
+		float: none;
+		padding: 0;
+	}
+
+	nav li {
+		background: linear-gradient(90deg, #ecff41, #3d4803);
+		display: block;
+		padding: 0;
+		margin-top: 3px;
+	}
+
+	nav a {
+		font: 125% 'Press Start 2P', Verdana, sans-serif;
+		width: 100%;
+		color: #fff;
+		padding: 0 3px;
+	}
+
+	aside img {
+		width: 150px;
+	}
+
+	main a {
+		display: none;
+	}
+
+	main h3 {
+		margin: auto;
+		padding: 10px;
+	}
+
+	main img {
+		width: 50px;
+		height: auto;
+	}
+}
